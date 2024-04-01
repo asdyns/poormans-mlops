@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pm-mlflow-deployment
+  namespace: poormans-mlops
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pm-mlflow
+  template:
+    metadata:
+      labels:
+        app: pm-mlflow
+    spec:
+      containers:
+      - name: pm-mlflow
+        image: asdyns/pm-mlflow:latest
+        ports:
+        - containerPort: 5000
