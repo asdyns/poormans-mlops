@@ -1,14 +1,44 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="S2PuI7gsLmhFEggH8zbw">
-        <mxGraphModel dx="1032" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1076" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="qhkMMN_w8hNtLT-Y_C0L-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="100" width="80" height="80" as="geometry"/>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="80" width="340" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="260" width="120" height="80" as="geometry"/>
+                <mxCell id="3" value="Github" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
+                    <mxGeometry x="220" y="105" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Code" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="110" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="K8s" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" vertex="1" parent="1">
+                    <mxGeometry x="509.15999999999997" y="280" width="41.67" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="poormans-mlops" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="100" width="120" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="MLFlow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="575" y="110" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="devops-mlops" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="374" y="100" width="120" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="389" y="110" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="70" as="sourcePoint"/>
+                        <mxPoint x="570" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
